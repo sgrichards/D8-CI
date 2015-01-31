@@ -1,0 +1,24 @@
+uuid: b3061f00-7031-4ecf-b900-fd2dd92b6d79
+langcode: und
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+  module:
+    - user
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content:
+  user_picture:
+    type: image
+    weight: 0
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+hidden:
+  member_for: true
+third_party_settings: {  }

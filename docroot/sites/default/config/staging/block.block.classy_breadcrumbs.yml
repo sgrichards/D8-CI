@@ -1,0 +1,23 @@
+uuid: 0cd196a3-ca17-4e21-af3b-59b7393b2b0e
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - classy
+id: classy_breadcrumbs
+theme: classy
+region: '-1'
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+  cache:
+    max_age: 0
+    contexts: {  }
+visibility: {  }

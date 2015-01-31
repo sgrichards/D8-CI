@@ -1,0 +1,11 @@
+uuid: b85a4c95-7f3c-4085-8900-bba90fdca3a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+id: comment_save_action
+label: 'Save comment'
+type: comment
+plugin: comment_save_action
+configuration: {  }

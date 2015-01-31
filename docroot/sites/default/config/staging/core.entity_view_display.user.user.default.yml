@@ -1,0 +1,23 @@
+uuid: d9f72237-45ed-4c4a-9a06-6b44c8c15d38
+langcode: und
+status: true
+dependencies:
+  module:
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  user_picture:
+    type: image
+    weight: 0
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+  member_for:
+    weight: 5
+hidden: {  }
+third_party_settings: {  }
