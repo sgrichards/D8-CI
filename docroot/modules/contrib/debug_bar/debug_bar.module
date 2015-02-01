@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for debug_bar module.
+ */
+
+/**
+ * Implements hook_attachments().
+ */
+function debug_bar_page_attachments(array &$page) {
+
+  if (\Drupal::currentUser()->hasPermission('view debug bar')) {
+    $path = drupal_get_path('module', 'debug_bar');
+    $page['#attached']['library'][] = 'debug_bar/debug_bar';
+    $page['#attached']['library'][] = 'core/jquery.ui.draggable';
+  }
+
+}

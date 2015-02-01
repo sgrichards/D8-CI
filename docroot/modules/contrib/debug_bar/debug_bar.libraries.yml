@@ -1,0 +1,6 @@
+debug_bar:
+  js:
+    js/debug-bar.js: {}
+  css:
+    component:
+      css/debug-bar.css: {}

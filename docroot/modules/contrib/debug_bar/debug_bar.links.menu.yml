@@ -1,0 +1,5 @@
+debug_bar.settings:
+  title: 'Debug Bar'
+  parent: system.admin_config_development
+  description: 'Configure Debug Bar'
+  route_name: debug_bar.settings

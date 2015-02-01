@@ -1,0 +1,7 @@
+debug_bar.settings:
+  path: '/admin/config/development/debug_bar'
+  defaults:
+    _title: 'Debug Bar'
+    _form: 'Drupal\debug_bar\DebugBarSettingsForm'
+  requirements:
+    _permission: 'administer debug bar'
