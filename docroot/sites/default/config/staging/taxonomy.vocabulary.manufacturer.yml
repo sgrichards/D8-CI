@@ -1,0 +1,10 @@
+uuid: 065ac39d-20e3-486e-bc00-f862671e7c20
+langcode: en
+status: true
+dependencies: {  }
+name: Manufacturer
+vid: manufacturer
+description: ''
+hierarchy: 0
+weight: 0
+third_party_settings: {  }
