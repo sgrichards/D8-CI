@@ -1,0 +1,12 @@
+uuid: c207a6ba-e764-42ed-8400-e902a4ca5f54
+langcode: en
+status: true
+dependencies: {  }
+name: Car
+type: car
+description: 'This describes a car'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true
+third_party_settings: {  }

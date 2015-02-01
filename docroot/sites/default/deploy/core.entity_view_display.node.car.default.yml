@@ -1,0 +1,25 @@
+uuid: 86c7de62-7777-4c4b-a600-a71833ec80c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.car.body
+    - node.type.car
+  module:
+    - text
+    - user
+id: node.car.default
+targetEntityType: node
+bundle: car
+mode: default
+content:
+  links:
+    weight: 100
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
+third_party_settings: {  }

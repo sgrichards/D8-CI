@@ -1,0 +1,23 @@
+uuid: da8484f0-b218-4a9b-8e00-f42bc8153b2b
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - stark
+id: stark_login
+theme: stark
+region: sidebar_first
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+  cache:
+    max_age: 0
+    contexts: {  }
+visibility: {  }

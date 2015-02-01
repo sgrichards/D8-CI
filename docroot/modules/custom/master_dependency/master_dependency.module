@@ -33,7 +33,7 @@ function master_dependency_update_dependencies() {
  *   A uuid string, for example 'e732b460-add4-47a7-8c00-e4dedbb42900'.
  */
 function master_dependency_set_uuid($uuid) {
-  \Drupal::configFactory() ->getEditable('system.site')
+  \Drupal::configFactory()->getEditable('system.site')
   ->set('uuid', $uuid)
   ->save();
 }

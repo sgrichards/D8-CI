@@ -1,8 +1,0 @@
-uuid: 4a99457c-4159-4f8e-9703-3a511fb4f747
-langcode: en
-status: true
-dependencies: {  }
-id: html_datetime
-label: 'HTML Datetime'
-locked: true
-pattern: 'Y-m-d\TH:i:sO'

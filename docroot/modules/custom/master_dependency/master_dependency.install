@@ -16,7 +16,7 @@ function master_dependency_install() {
   // instances of a codebase will have the same uuid, enabling us to
   // sync these instances via the config management system.
   // See also https://www.drupal.org/node/2133325
-  master_dependency_set_uuid('3118054a-d570-40f3-a408-08a732a0680a');
+  master_dependency_set_uuid('e05f4c56-fc87-4174-9f45-69084bf7b7e3');
   for ($i = 8001; $i < 9000; $i++) {
     $candidate = 'master_dependency_update_' . $i;
     if (function_exists($candidate)) {
