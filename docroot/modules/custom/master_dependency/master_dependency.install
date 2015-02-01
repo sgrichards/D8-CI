@@ -25,16 +25,16 @@ function master_dependency_install() {
   }
 }
 
-/**
- * Update dependencies and revert features
- */
-function master_dependency_update_8003() {
-  // If you add a new dependency during your development:
-  // (1) add your dependency to your .info file
-  // (2) increment the number in this function name (example: change
-  //     change 8003 to 8004)
-  // (3) now, on each target environment, running drush updb -y
-  //     will call the master_dependency_update_dependencies() function
-  //     which in turn will enable all new dependencies.
-  master_dependency_update_dependencies();
-}
+///**
+// * Update dependencies and revert features
+// */
+//function master_dependency_update_8003() {
+//  // If you add a new dependency during your development:
+//  // (1) add your dependency to your .info file
+//  // (2) increment the number in this function name (example: change
+//  //     change 8003 to 8004)
+//  // (3) now, on each target environment, running drush updb -y
+//  //     will call the master_dependency_update_dependencies() function
+//  //     which in turn will enable all new dependencies.
+//  master_dependency_update_dependencies();
+//}
